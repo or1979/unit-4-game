@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IR-edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>Crystal Collector</title>
+</head>
+
+<body>
+    <header>
+        <h1>Crystal Collector!</h1>
+    </header>
+
+    <section>
+
+        <h2>Can you read the crystals?</h2>
+
+        <p>You will be given a random number at the start of the game.</p>
+        <p>Each crystal below will add a specific number of points to your total score.</p>
+        <p>The value of each crystal is hidden until it is clicked by you.</p>
+        <p>To win the game, your score must match the selected random number given.</p>
+        <p>You will lose should your score go above the random number.</p>
+    </section>
+
+    
+
+    <div id="random">
+        Target Number: <span id="target"></span>
+    </div>
+
+    <div class="win-score">
+        Wins: <span id="wins"></span>
+
+    </div>
+    <div class="loss-score">
+        Losses: <span id="losses"></span>
+    </div>
+
+    <div class="images">
+        <img src="assets/images/blue crystal.jpg" id="img1" >
+        <img src="assets/images/white crystal.jpg" id="img2" >
+        <img src="assets/images/colorful crystal.jpg" id="img3">
+        <img src="assets/images/purple crystal.jpg" id="img4">
+    </div>
+
+    <div class="guesses">
+        Your Score Is: <span id="guesses" class="guess"></span>
+    </div>
+
+
+
+
+
+
+
+    <script type="text/javascript" src="./assets/javascript/games.js" ></script>
+    
+</body>
+
+
+
+
+</html>
